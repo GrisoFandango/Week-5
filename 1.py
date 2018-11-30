@@ -1,12 +1,15 @@
 x = 15
 y = 5
+# +  is a concatenator, but can concatenate only
+#strings. Because X and Y are integers, we need
+#to put str() to concatenate the result
 print("X + Y is equal\t" + str(x + y))
 print("X * Y is equal\t" + str(x * y))
 print("X - Y is equal\t" + str(x - y))
 print("X / Y is equal\t" + str(x / y))
-#if i put a comma i am not concatenating a string to an integer so i
-#do not need to use the str() formula that otherwise would be need in case
-#instead of comma we use +. So, + is a concatenator.  
+#Here instead we used comma, that is not a
+#concatenator,so, does not need the use of
+#str()
 print("X + Y is equal\t",x+y)
 print("X * Y is equal\t",x*y)
 print("X / Y is equal\t",x/y)
